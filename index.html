@@ -154,49 +154,82 @@ footer a { color: var(--leaf-dark); }
 <script id="search-logic">
 // Pure search logic, no DOM. Also run by the Node test against the real JSON.
 (function (root) {
+  var MIN_FUZZY = 3; // terms shorter than this must appear verbatim
   function normalize(text) {
     return String(text || "").toLowerCase().trim().replace(/^:+|:+$/g, "");
   }
   function terms(query) {
     return normalize(query).split(/\s+/).map(function (t) { return t.replace(/^:+|:+$/g, ""); }).filter(Boolean);
   }
-  // Rank per term: 0 exact name, 1 name prefix, 2 name contains, 3 exact alias, 4 alias contains.
+  // One term against one string. kind: 0 exact, 1 prefix, 2 substring, 3 subsequence (the term's
+  // characters appear in order with gaps, e.g. "workbedge" in "workfrombedge"; terms of MIN_FUZZY+
+  // characters only). positions: matched character indexes, for highlighting.
+  function matchText(text, t) {
+    var i = text.indexOf(t);
+    if (i !== -1) {
+      var pos = [];
+      for (var k = 0; k < t.length; k++) pos.push(i + k);
+      return { kind: text === t ? 0 : (i === 0 ? 1 : 2), positions: pos, span: t.length };
+    }
+    if (t.length < MIN_FUZZY) return null;
+    var positions = [], ti = 0;
+    for (var c = 0; c < text.length && ti < t.length; c++) {
+      if (text.charAt(c) === t.charAt(ti)) { positions.push(c); ti++; }
+    }
+    if (ti < t.length) return null;
+    return { kind: 3, positions: positions, span: positions[positions.length - 1] - positions[0] + 1 };
+  }
+  // Rank of a term: name exact 0, name prefix 1, name substring 2, alias exact 3, alias substring 4,
+  // name subsequence 5, alias subsequence 6. Lower is better.
+  var NAME_RANK = [0, 1, 2, 5];
+  var ALIAS_RANK = [3, 4, 4, 6];
+  function addAll(set, positions) { for (var i = 0; i < positions.length; i++) set.add(positions[i]); }
+  function sorted(set) { return Array.from(set).sort(function (a, b) { return a - b; }); }
   function matchItem(item, qterms) {
     var name = String(item.name).toLowerCase();
     var aliases = item.aliases || [];
-    var rank = 0;
-    var hits = new Set();
+    var rank = 0, span = 0;
+    var nameMarks = new Set(), aliasMarks = {}, hits = new Set();
     for (var i = 0; i < qterms.length; i++) {
       var t = qterms[i];
-      var best = Infinity;
-      if (name === t) best = 0;
-      else if (name.indexOf(t) === 0) best = 1;
-      else if (name.indexOf(t) !== -1) best = 2;
+      var best = Infinity, bestSpan = Infinity;
+      var nm = matchText(name, t);
+      if (nm) { best = NAME_RANK[nm.kind]; bestSpan = nm.span; addAll(nameMarks, nm.positions); }
       for (var j = 0; j < aliases.length; j++) {
-        var a = String(aliases[j]).toLowerCase();
-        if (a.indexOf(t) !== -1) {
-          hits.add(aliases[j]);
-          if (best === Infinity) best = a === t ? 3 : 4;
-        }
+        var alias = aliases[j];
+        var am = matchText(String(alias).toLowerCase(), t);
+        if (!am) continue;
+        hits.add(alias);
+        if (!aliasMarks[alias]) aliasMarks[alias] = new Set();
+        addAll(aliasMarks[alias], am.positions);
+        var r = ALIAS_RANK[am.kind];
+        if (r < best || (r === best && am.span < bestSpan)) { best = r; bestSpan = am.span; }
       }
       if (best === Infinity) return null;
       if (best > rank) rank = best;
+      span += bestSpan;
     }
-    return { rank: rank, hits: hits };
+    var marks = {};
+    for (var a in aliasMarks) marks[a] = sorted(aliasMarks[a]);
+    return { rank: rank, span: span, hits: hits, nameMarks: sorted(nameMarks), aliasMarks: marks };
   }
-  // Returns [{item, index, rank, hits}] in rank order, list order within a rank.
+  // Returns [{item, index, rank, span, hits, nameMarks, aliasMarks}]: best rank first, then the
+  // tightest match, then list order. An empty query returns everything in list order.
   function search(items, query) {
     var qterms = terms(query);
     var out = [];
     for (var i = 0; i < items.length; i++) {
-      if (!qterms.length) { out.push({ item: items[i], index: i, rank: 0, hits: new Set() }); continue; }
+      if (!qterms.length) {
+        out.push({ item: items[i], index: i, rank: 0, span: 0, hits: new Set(), nameMarks: [], aliasMarks: {} });
+        continue;
+      }
       var m = matchItem(items[i], qterms);
-      if (m) out.push({ item: items[i], index: i, rank: m.rank, hits: m.hits });
+      if (m) { m.item = items[i]; m.index = i; out.push(m); }
     }
-    out.sort(function (a, b) { return a.rank - b.rank || a.index - b.index; });
+    out.sort(function (a, b) { return a.rank - b.rank || a.span - b.span || a.index - b.index; });
     return out;
   }
-  var api = { normalize: normalize, terms: terms, search: search };
+  var api = { normalize: normalize, terms: terms, matchText: matchText, search: search };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else root.Slothmojis = api;
 })(typeof window !== "undefined" ? window : globalThis);
@@ -225,29 +258,34 @@ footer a { color: var(--leaf-dark); }
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
-  function escRe(text) { return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
-  function highlight(text, qterms) {
-    var safe = esc(text);
-    if (!qterms.length) return safe;
-    var re = new RegExp("(" + qterms.map(function (t) { return escRe(esc(t)); }).join("|") + ")", "gi");
-    return safe.replace(re, "<mark>$1</mark>");
+  // Escape text and wrap the characters at `positions` (shifted by `offset`) in <mark>.
+  function markText(text, positions, offset) {
+    var set = new Set(positions.map(function (p) { return p + offset; }));
+    var html = "", open = false;
+    for (var i = 0; i < text.length; i++) {
+      var on = set.has(i);
+      if (on && !open) { html += "<mark>"; open = true; }
+      if (!on && open) { html += "</mark>"; open = false; }
+      html += esc(text.charAt(i));
+    }
+    return open ? html + "</mark>" : html;
   }
   function plural(tab, n) { return n === 1 ? NOUN[tab][0] : NOUN[tab][1]; }
   function otherTab(tab) { return tab === "sloths" ? "bedges" : "sloths"; }
 
-  function card(result, qterms) {
+  function card(result) {
     var item = result.item;
     var aliases = item.aliases || [];
     var aliasHtml = "";
     if (aliases.length) {
       aliasHtml = '<div class="aliases">aka ' + aliases.map(function (a) {
-        return result.hits.has(a) ? highlight(a, qterms) : esc(a);
+        return markText(a, result.aliasMarks[a] || [], 0);
       }).join(", ") + "</div>";
     }
     return '<li class="card" tabindex="0" role="button" data-name="' + esc(item.name) + '" ' +
       'aria-label="Copy :' + esc(item.name) + ':">' +
       '<img src="images/' + esc(item.file) + '" alt="" width="64" height="64" loading="lazy" decoding="async">' +
-      '<div class="name">' + highlight(":" + item.name + ":", qterms) + "</div>" + aliasHtml + "</li>";
+      '<div class="name">' + markText(":" + item.name + ":", result.nameMarks, 1) + "</div>" + aliasHtml + "</li>";
   }
 
   function render() {
@@ -257,7 +295,7 @@ footer a { color: var(--leaf-dark); }
     var results = S.search(items, state.query);
     var shown = state.query.trim();
     if (results.length) {
-      els.grid.innerHTML = results.map(function (r) { return card(r, qterms); }).join("");
+      els.grid.innerHTML = results.map(card).join("");
     } else {
       els.grid.innerHTML = '<li class="empty"><img src="images/confusedsloth.png" alt="" width="96" height="96">' +
         "<p>No " + NOUN[state.tab][1] + " match “" + esc(shown) + "”.</p></li>";
