@@ -67,7 +67,8 @@ h1 { margin: 0; font-size: clamp(2rem, 5vw, 2.8rem); letter-spacing: .5px; color
 .tabs button[aria-selected="true"] { background: var(--leaf); color: #fff; }
 .tabs button:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
 .tabs .count { margin-left: 6px; font-size: .9em; font-weight: 600; opacity: .85; }
-.search { position: relative; flex: 1 1 280px; max-width: 480px; }
+.search { position: relative; flex: 1 1 260px; max-width: 340px; }
+@media (max-width: 640px) { .search { max-width: none; } }
 .search svg {
   position: absolute; left: 14px; top: 50%; width: 20px; height: 20px; transform: translateY(-50%);
   color: var(--muted); pointer-events: none;
