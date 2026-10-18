@@ -1,3 +1,5 @@
+# slothmojis
+
 | Name | Img | Aliases |
 | --- | --- | --- |
 | sloth-hang-in-there | <img src="images/sloth-hang-in-there.png" width="64" alt="sloth-hang-in-there"> |  |
