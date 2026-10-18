@@ -100,7 +100,6 @@ h1 { margin: 0; font-size: clamp(2rem, 5vw, 2.8rem); letter-spacing: .5px; color
 .spot-copy:focus-visible { box-shadow: 0 0 0 3px var(--sun); }
 .spot-copy:active { transform: scale(.97); }
 .spotlight img { display: block; width: 128px; height: 128px; margin: 0; object-fit: contain; animation: pop .25s ease-out; }
-.spot-hint { margin: 10px 0 0; min-height: 1.3em; font-size: .85rem; color: var(--muted); }
 @keyframes pop { from { transform: scale(.6); opacity: 0; } to { transform: none; opacity: 1; } }
 .spotlight .name { font-weight: 700; font-size: 1.2rem; color: var(--leaf-dark); overflow-wrap: anywhere; }
 .spotlight .aliases { margin-top: 4px; font-size: .9rem; color: var(--muted); overflow-wrap: anywhere; }
@@ -198,7 +197,7 @@ footer a { color: var(--leaf-dark); }
   </button>
   <div class="name" id="spot-name"></div>
   <div class="aliases" id="spot-aliases"></div>
-  <p class="spot-hint" id="spot-hint">Click the sloth to copy its shortcode</p>
+  <div class="toast" id="spot-toast" role="status" aria-live="polite"></div>
   <div class="spotlight-actions">
     <button type="button" id="spot-again"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"></rect><circle cx="8.5" cy="8.5" r="1.3" fill="currentColor" stroke="none"></circle><circle cx="15.5" cy="8.5" r="1.3" fill="currentColor" stroke="none"></circle><circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"></circle><circle cx="8.5" cy="15.5" r="1.3" fill="currentColor" stroke="none"></circle><circle cx="15.5" cy="15.5" r="1.3" fill="currentColor" stroke="none"></circle></svg>Roll again</button>
   </div>
@@ -396,11 +395,16 @@ footer a { color: var(--leaf-dark); }
     if (url !== location.pathname + location.search + location.hash) history.replaceState(null, "", url);
   }
 
+  // A fixed toast outside an open modal dialog would sit under its backdrop, so the dialog
+  // carries its own toast element and we show whichever one is in view.
   function toast(message) {
-    els.toast.textContent = message;
-    els.toast.classList.add("show");
+    var el = spot.dialog.open ? spot.toast : els.toast;
+    els.toast.classList.remove("show");
+    spot.toast.classList.remove("show");
+    el.textContent = message;
+    el.classList.add("show");
     clearTimeout(toastTimer);
-    toastTimer = setTimeout(function () { els.toast.classList.remove("show"); }, 1600);
+    toastTimer = setTimeout(function () { el.classList.remove("show"); }, 1600);
   }
   function copyShortcode(name) {
     var text = ":" + name + ":";
@@ -439,10 +443,9 @@ footer a { color: var(--leaf-dark); }
     aliases: document.getElementById("spot-aliases"),
     copy: document.getElementById("spot-copy"),
     again: document.getElementById("spot-again"),
-    hint: document.getElementById("spot-hint")
+    toast: document.getElementById("spot-toast")
   };
   var lastRandom = null;
-  var hintTimer = null;
   function showRandomSloth() {
     if (!state.data) return;
     var item = S.pickRandom(state.data.sloths, lastRandom && lastRandom.name);
@@ -456,8 +459,6 @@ footer a { color: var(--leaf-dark); }
     spot.aliases.textContent = item.aliases && item.aliases.length ? "aka " + item.aliases.join(", ") : "";
     spot.copy.dataset.name = item.name;
     spot.copy.setAttribute("aria-label", "Copy :" + item.name + ":");
-    clearTimeout(hintTimer);
-    spot.hint.textContent = "Click the sloth to copy :" + item.name + ":";
     if (!spot.dialog.open) {
       if (spot.dialog.showModal) spot.dialog.showModal(); else spot.dialog.setAttribute("open", "");
     }
@@ -465,16 +466,7 @@ footer a { color: var(--leaf-dark); }
   }
   document.getElementById("random").addEventListener("click", showRandomSloth);
   spot.again.addEventListener("click", showRandomSloth);
-  spot.copy.addEventListener("click", function () {
-    var text = ":" + spot.copy.dataset.name + ":";
-    var settle = function (ok) {
-      spot.hint.textContent = ok ? "Copied " + text : "Copying is blocked here; the shortcode is " + text;
-      clearTimeout(hintTimer);
-      hintTimer = setTimeout(function () { spot.hint.textContent = "Click the sloth to copy " + text; }, 1400);
-    };
-    if (!navigator.clipboard) { settle(false); return; }
-    navigator.clipboard.writeText(text).then(function () { settle(true); }, function () { settle(false); });
-  });
+  spot.copy.addEventListener("click", function () { copyShortcode(spot.copy.dataset.name); });
   window.addEventListener("hashchange", function () {
     var tab = location.hash.replace("#", "");
     if (LABEL[tab] && tab !== state.tab) setTab(tab, false);
