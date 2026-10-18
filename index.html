@@ -95,12 +95,15 @@ h1 { margin: 0; font-size: clamp(2rem, 5vw, 2.8rem); letter-spacing: .5px; color
 .random:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
 .random svg { width: 18px; height: 18px; }
 .spotlight {
-  width: min(92vw, 360px); padding: 30px 24px 22px; text-align: center; color: var(--ink);
+  width: fit-content; min-width: 260px; max-width: min(92vw, 420px);
+  padding: 30px 24px 22px; text-align: center; color: var(--ink);
   background: var(--card); border: 1px solid var(--leaf-light); border-radius: 16px; box-shadow: var(--shadow-hover);
 }
 .spotlight::backdrop { background: rgba(31, 46, 28, .55); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); }
 .spot-copy {
-  display: block; width: 100%; margin: 0 auto 6px; padding: 14px 10px 12px; cursor: pointer;
+  /* sized by its content like a grid card: at least the grid's 150px column, never wider than the dialog */
+  display: block; width: fit-content; min-width: 150px; max-width: 100%; margin: 0 auto 6px;
+  padding: 14px 10px 12px; cursor: pointer;
   font: inherit; color: inherit; text-align: center; background: transparent;
   border: 1px solid transparent; border-radius: 16px;
   transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
