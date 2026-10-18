@@ -1,7 +1,3 @@
-# slothmojis
-
-422 custom sloth emoji. Each image lives in [`images/`](images) under the emoji's name, for example `angrysloth.png`; animated sloths are `.gif` files, for example `excitedsloth.gif` (64 of them). **Aliases** are the other `:names:` that point at the same image. [`sloths.json`](sloths.json) holds the same data.
-
 | Name | Img | Aliases |
 | --- | --- | --- |
 | sloth-hang-in-there | <img src="images/sloth-hang-in-there.png" width="64" alt="sloth-hang-in-there"> |  |
