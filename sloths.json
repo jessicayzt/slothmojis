@@ -1,0 +1,2171 @@
+[
+  {
+    "name": "sloth-hang-in-there",
+    "file": "sloth-hang-in-there.png",
+    "aliases": []
+  },
+  {
+    "name": "slothstack",
+    "file": "slothstack.png",
+    "aliases": []
+  },
+  {
+    "name": "happysloth",
+    "file": "happysloth.jpg",
+    "aliases": []
+  },
+  {
+    "name": "slothshrug",
+    "file": "slothshrug.png",
+    "aliases": []
+  },
+  {
+    "name": "confusedsloth",
+    "file": "confusedsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothreadingdocumentation",
+    "file": "slothreadingdocumentation.png",
+    "aliases": [
+      "slothreading"
+    ]
+  },
+  {
+    "name": "runningsloth",
+    "file": "runningsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothcoffee",
+    "file": "slothcoffee.png",
+    "aliases": [
+      "coffeesloth"
+    ]
+  },
+  {
+    "name": "slothnap",
+    "file": "slothnap.png",
+    "aliases": [
+      "napsloth"
+    ]
+  },
+  {
+    "name": "vacationsloth",
+    "file": "vacationsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "deadsloth",
+    "file": "deadsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "surprisedsloth",
+    "file": "surprisedsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "dancingsloth",
+    "file": "dancingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "partysloth",
+    "file": "partysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "slothlove",
+    "file": "slothlove.png",
+    "aliases": []
+  },
+  {
+    "name": "wavingsloth",
+    "file": "wavingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "turbulentsloth",
+    "file": "turbulentsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "slothlife",
+    "file": "slothlife.gif",
+    "aliases": []
+  },
+  {
+    "name": "babysloth",
+    "file": "babysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "halfhangingsloth",
+    "file": "halfhangingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "donutsloth",
+    "file": "donutsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "musicsloth",
+    "file": "musicsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sleepingsloth",
+    "file": "sleepingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "workingsloth",
+    "file": "workingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "tiredsloth",
+    "file": "tiredsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "balloonsloth",
+    "file": "balloonsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "yogasloth",
+    "file": "yogasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "lazysloth",
+    "file": "lazysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "crawlingsloth",
+    "file": "crawlingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "zensloth",
+    "file": "zensloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sleepysloth",
+    "file": "sleepysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "umbrellasloth",
+    "file": "umbrellasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "catladysloth",
+    "file": "catladysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "birthdaycakesloth",
+    "file": "birthdaycakesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "guitarsloth",
+    "file": "guitarsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sciencesloth",
+    "file": "sciencesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "formalsloth",
+    "file": "formalsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "campfiresloth",
+    "file": "campfiresloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cathugsloth",
+    "file": "cathugsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bakingsloth",
+    "file": "bakingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "constructionsloth",
+    "file": "constructionsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bobrosssloth",
+    "file": "bobrosssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "aliensloth",
+    "file": "aliensloth.png",
+    "aliases": []
+  },
+  {
+    "name": "unicornsloth",
+    "file": "unicornsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "masksloth",
+    "file": "masksloth.png",
+    "aliases": []
+  },
+  {
+    "name": "surfingsloth",
+    "file": "surfingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "mermaidsloth",
+    "file": "mermaidsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "socksloth",
+    "file": "socksloth.png",
+    "aliases": []
+  },
+  {
+    "name": "fitnesssloth",
+    "file": "fitnesssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "toastsloth",
+    "file": "toastsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "dinosaursloth",
+    "file": "dinosaursloth.png",
+    "aliases": []
+  },
+  {
+    "name": "gardeningsloth",
+    "file": "gardeningsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cowboysloth",
+    "file": "cowboysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cleaningsloth",
+    "file": "cleaningsloth.png",
+    "aliases": [
+      "techdebtsloth"
+    ]
+  },
+  {
+    "name": "spacesloth",
+    "file": "spacesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "unfitsloth",
+    "file": "unfitsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "summersloth",
+    "file": "summersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sadsloth",
+    "file": "sadsloth.png",
+    "aliases": [
+      "slothcry"
+    ]
+  },
+  {
+    "name": "harrypottersloth",
+    "file": "harrypottersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "couchpotatosloth",
+    "file": "couchpotatosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothshower",
+    "file": "slothshower.png",
+    "aliases": [
+      "showersloth"
+    ]
+  },
+  {
+    "name": "ramensloth",
+    "file": "ramensloth.png",
+    "aliases": []
+  },
+  {
+    "name": "twitchysloth",
+    "file": "twitchysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "stockingsloth",
+    "file": "stockingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "candycanesloth",
+    "file": "candycanesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "floatingawaysloth",
+    "file": "floatingawaysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "witchsloth",
+    "file": "witchsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "thumbsupsloth",
+    "file": "thumbsupsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "awwsloth",
+    "file": "awwsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "judgementalsloth",
+    "file": "judgementalsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "stagefrightsloth",
+    "file": "stagefrightsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "angrysloth",
+    "file": "angrysloth.png",
+    "aliases": [
+      "squintysloth",
+      "suspicioussloth"
+    ]
+  },
+  {
+    "name": "embarrassedsloth",
+    "file": "embarrassedsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "heartsloth",
+    "file": "heartsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hahasloth",
+    "file": "hahasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "spasloth",
+    "file": "spasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "100sloth",
+    "file": "100sloth.png",
+    "aliases": []
+  },
+  {
+    "name": "ohnosloth",
+    "file": "ohnosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothhug",
+    "file": "slothhug.png",
+    "aliases": []
+  },
+  {
+    "name": "flatsloth",
+    "file": "flatsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "pottedplantsloth",
+    "file": "pottedplantsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bikesloth",
+    "file": "bikesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "rocketsloth",
+    "file": "rocketsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "avocadosloth",
+    "file": "avocadosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "ghostsloth",
+    "file": "ghostsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "halloweensloth",
+    "file": "halloweensloth.png",
+    "aliases": []
+  },
+  {
+    "name": "pumpkinsloth",
+    "file": "pumpkinsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "booksloth",
+    "file": "booksloth.png",
+    "aliases": []
+  },
+  {
+    "name": "beachballsloth",
+    "file": "beachballsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cupcakesloth",
+    "file": "cupcakesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "grandmasloth",
+    "file": "grandmasloth.png",
+    "aliases": [
+      "knittingsloth"
+    ]
+  },
+  {
+    "name": "longsloth",
+    "file": "longsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "comfysloth",
+    "file": "comfysloth.png",
+    "aliases": [
+      "cozysloth"
+    ]
+  },
+  {
+    "name": "eggsloth",
+    "file": "eggsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "drsloth",
+    "file": "drsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cactussloth",
+    "file": "cactussloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hikingsloth",
+    "file": "hikingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sicksloth",
+    "file": "sicksloth.png",
+    "aliases": []
+  },
+  {
+    "name": "earthsloth",
+    "file": "earthsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "pridesloth",
+    "file": "pridesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sorrysloth",
+    "file": "sorrysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "giftsloth",
+    "file": "giftsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hulasloth",
+    "file": "hulasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "kayakingsloth",
+    "file": "kayakingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "fairysloth",
+    "file": "fairysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "devilsloth",
+    "file": "devilsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "anxioussloth",
+    "file": "anxioussloth.png",
+    "aliases": []
+  },
+  {
+    "name": "thinkingsloth",
+    "file": "thinkingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "horrifiedsloth",
+    "file": "horrifiedsloth.png",
+    "aliases": [
+      "screamsloth"
+    ]
+  },
+  {
+    "name": "dustysloth",
+    "file": "dustysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothteam",
+    "file": "slothteam.png",
+    "aliases": []
+  },
+  {
+    "name": "upsidedownsloth",
+    "file": "upsidedownsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "barelyhangingonsloth",
+    "file": "barelyhangingonsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "pizzasloth",
+    "file": "pizzasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "touristsloth",
+    "file": "touristsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slightlysmilingsloth",
+    "file": "slightlysmilingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "coolsloth",
+    "file": "coolsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "detectivesloth",
+    "file": "detectivesloth.png",
+    "aliases": [
+      "sleuthsloth"
+    ]
+  },
+  {
+    "name": "fingergunssloth",
+    "file": "fingergunssloth.png",
+    "aliases": [
+      "gotchasloth"
+    ]
+  },
+  {
+    "name": "leftfingergunssloth",
+    "file": "leftfingergunssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "nerdsloth",
+    "file": "nerdsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bathsloth",
+    "file": "bathsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "apatheticsloth",
+    "file": "apatheticsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "businesssloth",
+    "file": "businesssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "scaredsloth",
+    "file": "scaredsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "mummysloth",
+    "file": "mummysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "zombiesloth",
+    "file": "zombiesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "fallsloth",
+    "file": "fallsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "ooosloth",
+    "file": "ooosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "headachesloth",
+    "file": "headachesloth.png",
+    "aliases": [
+      "headbandagesloth"
+    ]
+  },
+  {
+    "name": "cavemansloth",
+    "file": "cavemansloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hotchocolatesloth",
+    "file": "hotchocolatesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "snowmansloth",
+    "file": "snowmansloth.png",
+    "aliases": []
+  },
+  {
+    "name": "christmassloth",
+    "file": "christmassloth.png",
+    "aliases": []
+  },
+  {
+    "name": "reindeersloth",
+    "file": "reindeersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "strongsloth",
+    "file": "strongsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "honeysloth",
+    "file": "honeysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hearteyessloth",
+    "file": "hearteyessloth.png",
+    "aliases": []
+  },
+  {
+    "name": "backbuddysloth",
+    "file": "backbuddysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothball",
+    "file": "slothball.png",
+    "aliases": [
+      "roundsloth"
+    ]
+  },
+  {
+    "name": "snowsloth",
+    "file": "snowsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "snowmanbuildingsloth",
+    "file": "snowmanbuildingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "superherosloth",
+    "file": "superherosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "wizardsloth",
+    "file": "wizardsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "seenoevilsloth",
+    "file": "seenoevilsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "speaknoevilsloth",
+    "file": "speaknoevilsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hearnoevilsloth",
+    "file": "hearnoevilsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "verysadsloth",
+    "file": "verysadsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "stopsloth",
+    "file": "stopsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "pjssloth",
+    "file": "pjssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "beanbagsloth",
+    "file": "beanbagsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "loafsloth",
+    "file": "loafsloth.png",
+    "aliases": [
+      "sloaf"
+    ]
+  },
+  {
+    "name": "cocktailsloth",
+    "file": "cocktailsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "dogsloth",
+    "file": "dogsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bugsloth",
+    "file": "bugsloth.png",
+    "aliases": [
+      "beesloth"
+    ]
+  },
+  {
+    "name": "oreosloth",
+    "file": "oreosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "policesloth",
+    "file": "policesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "firefightingsloth",
+    "file": "firefightingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "yaysloth",
+    "file": "yaysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "disappointedsloth",
+    "file": "disappointedsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "dimwittedsloth",
+    "file": "dimwittedsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "satisfiedsloth",
+    "file": "satisfiedsloth.png",
+    "aliases": [
+      "relievedsloth"
+    ]
+  },
+  {
+    "name": "teasloth",
+    "file": "teasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "ketchupsloth",
+    "file": "ketchupsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "serioussloth",
+    "file": "serioussloth.png",
+    "aliases": []
+  },
+  {
+    "name": "saxsloth",
+    "file": "saxsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "studioussloth",
+    "file": "studioussloth.png",
+    "aliases": []
+  },
+  {
+    "name": "blanketfortsloth",
+    "file": "blanketfortsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "reapersloth",
+    "file": "reapersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bugfixsloth",
+    "file": "bugfixsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "bugpunchsloth",
+    "file": "bugpunchsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "itchysloth",
+    "file": "itchysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "slowsloth",
+    "file": "slowsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "frustratedsloth",
+    "file": "frustratedsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "facepalmsloth",
+    "file": "facepalmsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "idksloth",
+    "file": "idksloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "panicsloth",
+    "file": "panicsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "candleblowingsloth",
+    "file": "candleblowingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "witchcauldronsloth",
+    "file": "witchcauldronsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "yawningsloth",
+    "file": "yawningsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "grumpysloth",
+    "file": "grumpysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "nosloth",
+    "file": "nosloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "sassynosloth",
+    "file": "sassynosloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "nopesloth",
+    "file": "nopesloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "thankssloth",
+    "file": "thankssloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "hungrysloth",
+    "file": "hungrysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hurrysloth",
+    "file": "hurrysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "moneysloth",
+    "file": "moneysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "vampiresloth",
+    "file": "vampiresloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bubbleteasloth",
+    "file": "bubbleteasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "dreamingsloth",
+    "file": "dreamingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "piratesloth",
+    "file": "piratesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "onfiresloth",
+    "file": "onfiresloth.png",
+    "aliases": []
+  },
+  {
+    "name": "dumpsterfiresloth",
+    "file": "dumpsterfiresloth.png",
+    "aliases": []
+  },
+  {
+    "name": "shoppingsloth",
+    "file": "shoppingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "kiwisloth",
+    "file": "kiwisloth.png",
+    "aliases": []
+  },
+  {
+    "name": "smellysloth",
+    "file": "smellysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "weekendsloth",
+    "file": "weekendsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "graduatingsloth",
+    "file": "graduatingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bananasloth",
+    "file": "bananasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "angelsloth",
+    "file": "angelsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "marshmallowsloth",
+    "file": "marshmallowsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothpet",
+    "file": "slothpet.gif",
+    "aliases": [
+      "itsokaysloth"
+    ]
+  },
+  {
+    "name": "wigglysloth",
+    "file": "wigglysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "fallingstockssloth",
+    "file": "fallingstockssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "exerciseballsloth",
+    "file": "exerciseballsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "mvpsloth",
+    "file": "mvpsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sillysloth",
+    "file": "sillysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "byesloth",
+    "file": "byesloth.gif",
+    "aliases": [
+      "hisloth"
+    ]
+  },
+  {
+    "name": "burritosloth",
+    "file": "burritosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "underarocksloth",
+    "file": "underarocksloth.png",
+    "aliases": []
+  },
+  {
+    "name": "irlsloth",
+    "file": "irlsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "fallingsloth",
+    "file": "fallingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cardboardboxsloth",
+    "file": "cardboardboxsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "grandpasloth",
+    "file": "grandpasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "you'rewelcomesloth",
+    "file": "you'rewelcomesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "unicyclesloth",
+    "file": "unicyclesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "shortsloth",
+    "file": "shortsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "rainbowsloth",
+    "file": "rainbowsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "chefsloth",
+    "file": "chefsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "mailsloth",
+    "file": "mailsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "weirdsloth",
+    "file": "weirdsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "bagholdersloth",
+    "file": "bagholdersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "rollbacksloth",
+    "file": "rollbacksloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "furioussloth",
+    "file": "furioussloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "boredsloth",
+    "file": "boredsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "karatesloth",
+    "file": "karatesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "boxingsloth",
+    "file": "boxingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hidingsloth",
+    "file": "hidingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "eastersloth",
+    "file": "eastersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "eastereggsloth",
+    "file": "eastereggsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "jailsloth",
+    "file": "jailsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "clownsloth",
+    "file": "clownsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "mindblownsloth",
+    "file": "mindblownsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "onthemoonsloth",
+    "file": "onthemoonsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cakesloth",
+    "file": "cakesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "icecreamsloth",
+    "file": "icecreamsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "overencumberedsloth",
+    "file": "overencumberedsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "leprechaunsloth",
+    "file": "leprechaunsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "stpatricksdaysloth",
+    "file": "stpatricksdaysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "jugglingsloth",
+    "file": "jugglingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "dappersloth",
+    "file": "dappersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "grimacingsloth",
+    "file": "grimacingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "dentistsloth",
+    "file": "dentistsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "holesloth",
+    "file": "holesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "eyessloth",
+    "file": "eyessloth.png",
+    "aliases": []
+  },
+  {
+    "name": "americansloth",
+    "file": "americansloth.png",
+    "aliases": []
+  },
+  {
+    "name": "campingsloth",
+    "file": "campingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cryingpuddlesloth",
+    "file": "cryingpuddlesloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "cryingsloth",
+    "file": "cryingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "bowlingsloth",
+    "file": "bowlingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "yessloth",
+    "file": "yessloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "divingsloth",
+    "file": "divingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "potatosloth",
+    "file": "potatosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "robotsloth",
+    "file": "robotsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "angstysloth",
+    "file": "angstysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "punksloth",
+    "file": "punksloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "kingsloth",
+    "file": "kingsloth.png",
+    "aliases": [
+      "queensloth",
+      "royalsloth"
+    ]
+  },
+  {
+    "name": "ayeayesloth",
+    "file": "ayeayesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "lofisloth",
+    "file": "lofisloth.png",
+    "aliases": []
+  },
+  {
+    "name": "windowsloth",
+    "file": "windowsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "stonkssloth",
+    "file": "stonkssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "nosepickingsloth",
+    "file": "nosepickingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "scruffysloth",
+    "file": "scruffysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bowlcutsloth",
+    "file": "bowlcutsloth.jpg",
+    "aliases": []
+  },
+  {
+    "name": "injuredsloth",
+    "file": "injuredsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothbucks",
+    "file": "slothbucks.png",
+    "aliases": []
+  },
+  {
+    "name": "wisesloth",
+    "file": "wisesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "eyerollsloth",
+    "file": "eyerollsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "rollingsloth",
+    "file": "rollingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "snakesloth",
+    "file": "snakesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "wildwestsloth",
+    "file": "wildwestsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "footballsloth",
+    "file": "footballsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "camerasloth",
+    "file": "camerasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "drivingsloth",
+    "file": "drivingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "clappingsloth",
+    "file": "clappingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "neutralsloth",
+    "file": "neutralsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "happytearssloth",
+    "file": "happytearssloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "slightlyfrowningsloth",
+    "file": "slightlyfrowningsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "shroomsloth",
+    "file": "shroomsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "gosloth",
+    "file": "gosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "jackolanternsloth",
+    "file": "jackolanternsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothparent",
+    "file": "slothparent.png",
+    "aliases": []
+  },
+  {
+    "name": "piggybacksloth",
+    "file": "piggybacksloth.png",
+    "aliases": []
+  },
+  {
+    "name": "warningsloth",
+    "file": "warningsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "shakysloth",
+    "file": "shakysloth.gif",
+    "aliases": [
+      "slothintensifies"
+    ]
+  },
+  {
+    "name": "fakesmilesloth",
+    "file": "fakesmilesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "phonesloth",
+    "file": "phonesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "incapacitatedsloth",
+    "file": "incapacitatedsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "coldberniesloth",
+    "file": "coldberniesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "badposturesloth",
+    "file": "badposturesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sushisloth",
+    "file": "sushisloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sossloth",
+    "file": "sossloth.png",
+    "aliases": []
+  },
+  {
+    "name": "ssloth",
+    "file": "ssloth.png",
+    "aliases": [
+      "letter_s_made_of_sloth"
+    ]
+  },
+  {
+    "name": "poopsloth",
+    "file": "poopsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "germysloth",
+    "file": "germysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "thermometersloth",
+    "file": "thermometersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "octosloth",
+    "file": "octosloth.png",
+    "aliases": [
+      "slothtopus"
+    ]
+  },
+  {
+    "name": "bearsloth",
+    "file": "bearsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "lyingsloth",
+    "file": "lyingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "tornadosloth",
+    "file": "tornadosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "kissysloth",
+    "file": "kissysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "pineapplesloth",
+    "file": "pineapplesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "zippedmouthsloth",
+    "file": "zippedmouthsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "monoclesloth",
+    "file": "monoclesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "fumingsloth",
+    "file": "fumingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "winkingsloth",
+    "file": "winkingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "shhsloth",
+    "file": "shhsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sneezingsloth",
+    "file": "sneezingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cheesesloth",
+    "file": "cheesesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "lemonsloth",
+    "file": "lemonsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sunsloth",
+    "file": "sunsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "moonsloth",
+    "file": "moonsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "peekaboosloth",
+    "file": "peekaboosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "artsloth",
+    "file": "artsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "baosloth",
+    "file": "baosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "burglarsloth",
+    "file": "burglarsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cheerleadingsloth",
+    "file": "cheerleadingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "climbingsloth",
+    "file": "climbingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cloudsloth",
+    "file": "cloudsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "copiumsloth",
+    "file": "copiumsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hairdressersloth",
+    "file": "hairdressersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hecklingsloth",
+    "file": "hecklingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hedgehogsloth",
+    "file": "hedgehogsloth.png",
+    "aliases": [
+      "spikysloth"
+    ]
+  },
+  {
+    "name": "hogsloth",
+    "file": "hogsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "huntersloth",
+    "file": "huntersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "meltysloth",
+    "file": "meltysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "outofbreathsloth",
+    "file": "outofbreathsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "pandasloth",
+    "file": "pandasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "partyparrotsloth",
+    "file": "partyparrotsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "phewsloth",
+    "file": "phewsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "ppesloth",
+    "file": "ppesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "rocksloth",
+    "file": "rocksloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sighsloth",
+    "file": "sighsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "skiingsloth",
+    "file": "skiingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothpray",
+    "file": "slothpray.png",
+    "aliases": []
+  },
+  {
+    "name": "slothstrich",
+    "file": "slothstrich.png",
+    "aliases": []
+  },
+  {
+    "name": "snowboardingsloth",
+    "file": "snowboardingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "starsloth",
+    "file": "starsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sweepingsloth",
+    "file": "sweepingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "turtlesloth",
+    "file": "turtlesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "zanysloth",
+    "file": "zanysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "chickensloth",
+    "file": "chickensloth.png",
+    "aliases": []
+  },
+  {
+    "name": "axsloth",
+    "file": "axsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "traxsloth",
+    "file": "traxsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bendysloth",
+    "file": "bendysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "roombasloth",
+    "file": "roombasloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "excitedsloth",
+    "file": "excitedsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "bananaslipsloth",
+    "file": "bananaslipsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "spacedoutsloth",
+    "file": "spacedoutsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "questionsloth",
+    "file": "questionsloth.png",
+    "aliases": [
+      "handraisedsloth"
+    ]
+  },
+  {
+    "name": "outofbodysloth",
+    "file": "outofbodysloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cheeringsloths",
+    "file": "cheeringsloths.gif",
+    "aliases": []
+  },
+  {
+    "name": "tigersloth",
+    "file": "tigersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "friedchickensloth",
+    "file": "friedchickensloth.png",
+    "aliases": []
+  },
+  {
+    "name": "ahhsloth",
+    "file": "ahhsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "notstonkssloth",
+    "file": "notstonkssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "applesloth",
+    "file": "applesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "croissantsloth",
+    "file": "croissantsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "ducksloth",
+    "file": "ducksloth.png",
+    "aliases": []
+  },
+  {
+    "name": "whalesloth",
+    "file": "whalesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sharksloth",
+    "file": "sharksloth.png",
+    "aliases": []
+  },
+  {
+    "name": "diamondsloth",
+    "file": "diamondsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "crystalballsloth",
+    "file": "crystalballsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "pukesloth",
+    "file": "pukesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "gokartsloth",
+    "file": "gokartsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "raisehandsloth",
+    "file": "raisehandsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "pastasloth",
+    "file": "pastasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothholdingspaghetti",
+    "file": "slothholdingspaghetti.png",
+    "aliases": []
+  },
+  {
+    "name": "skatingsloth",
+    "file": "skatingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "smokysloth",
+    "file": "smokysloth.png",
+    "aliases": [
+      "foggysloth"
+    ]
+  },
+  {
+    "name": "santasloth",
+    "file": "santasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "gaspsloth",
+    "file": "gaspsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "templatesloth",
+    "file": "templatesloth.png",
+    "aliases": [
+      "absentsloth",
+      "emptysloth"
+    ]
+  },
+  {
+    "name": "orangesloth",
+    "file": "orangesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "popcornsloth",
+    "file": "popcornsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "golfsloth",
+    "file": "golfsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "canadiansloth",
+    "file": "canadiansloth.png",
+    "aliases": []
+  },
+  {
+    "name": "cowsloth",
+    "file": "cowsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "trashsloth",
+    "file": "trashsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slothsplosion",
+    "file": "slothsplosion.png",
+    "aliases": [
+      "slothexplosion"
+    ]
+  },
+  {
+    "name": "eyebagssloth",
+    "file": "eyebagssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "volcanosloth",
+    "file": "volcanosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "disguisedsloth",
+    "file": "disguisedsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sweatingsloth",
+    "file": "sweatingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "teethsloth",
+    "file": "teethsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "algaesloth",
+    "file": "algaesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "poggerssloth",
+    "file": "poggerssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "rotatingsloth",
+    "file": "rotatingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "lookingaroundsloth",
+    "file": "lookingaroundsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "basketballsloth",
+    "file": "basketballsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hypesloth",
+    "file": "hypesloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "notetakingsloth",
+    "file": "notetakingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "bonksloth",
+    "file": "bonksloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "abjectmiserysloth",
+    "file": "abjectmiserysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "thumbsdownsloth",
+    "file": "thumbsdownsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "singingsloth",
+    "file": "singingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "toiletsloth",
+    "file": "toiletsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "lightningsloth",
+    "file": "lightningsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "soggysloth",
+    "file": "soggysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "radioactivesloth",
+    "file": "radioactivesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "asaunasloth",
+    "file": "asaunasloth.png",
+    "aliases": []
+  },
+  {
+    "name": "judgesloth",
+    "file": "judgesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "dentedsloth",
+    "file": "dentedsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "thanossnapsloth",
+    "file": "thanossnapsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "headbumpsloth",
+    "file": "headbumpsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "munchysloth",
+    "file": "munchysloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "crashoutsloth",
+    "file": "crashoutsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "spiralingsloth",
+    "file": "spiralingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "distortedsloth",
+    "file": "distortedsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "slicedloafsloth",
+    "file": "slicedloafsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "baldingsloth",
+    "file": "baldingsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "hairlesssloth",
+    "file": "hairlesssloth.png",
+    "aliases": []
+  },
+  {
+    "name": "headstonesloth",
+    "file": "headstonesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "sparklingsloth",
+    "file": "sparklingsloth.gif",
+    "aliases": []
+  },
+  {
+    "name": "nauseoussloth",
+    "file": "nauseoussloth.png",
+    "aliases": []
+  },
+  {
+    "name": "farmersloth",
+    "file": "farmersloth.png",
+    "aliases": []
+  },
+  {
+    "name": "wildwestoctosloth",
+    "file": "wildwestoctosloth.png",
+    "aliases": []
+  },
+  {
+    "name": "arcadesloth",
+    "file": "arcadesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "tarotcardsloth",
+    "file": "tarotcardsloth.png",
+    "aliases": []
+  },
+  {
+    "name": "bedgesloth",
+    "file": "bedgesloth.png",
+    "aliases": []
+  },
+  {
+    "name": "glamsloth",
+    "file": "glamsloth.png",
+    "aliases": []
+  }
+]
