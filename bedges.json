@@ -1,0 +1,26 @@
+[
+  {
+    "name": "bedge",
+    "file": "bedge.png"
+  },
+  {
+    "name": "sadbedge",
+    "file": "sadbedge.png"
+  },
+  {
+    "name": "madbedge",
+    "file": "madbedge.png"
+  },
+  {
+    "name": "doomscrollbedge",
+    "file": "doomscrollbedge.png"
+  },
+  {
+    "name": "workfrombedge",
+    "file": "workfrombedge.png"
+  },
+  {
+    "name": "bedgesloth",
+    "file": "bedgesloth.png"
+  }
+]

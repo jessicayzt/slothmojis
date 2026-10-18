@@ -424,3 +424,14 @@
 | tarotcardsloth | <img src="images/tarotcardsloth.png" width="64" alt="tarotcardsloth"> |  |
 | bedgesloth | <img src="images/bedgesloth.png" width="64" alt="bedgesloth"> |  |
 | glamsloth | <img src="images/glamsloth.png" width="64" alt="glamsloth"> |  |
+
+## bedges
+
+| Name | Img |
+| --- | --- |
+| bedge | <img src="images/bedge.png" width="64" alt="bedge"> |
+| sadbedge | <img src="images/sadbedge.png" width="64" alt="sadbedge"> |
+| madbedge | <img src="images/madbedge.png" width="64" alt="madbedge"> |
+| doomscrollbedge | <img src="images/doomscrollbedge.png" width="64" alt="doomscrollbedge"> |
+| workfrombedge | <img src="images/workfrombedge.png" width="64" alt="workfrombedge"> |
+| bedgesloth | <img src="images/bedgesloth.png" width="64" alt="bedgesloth"> |
