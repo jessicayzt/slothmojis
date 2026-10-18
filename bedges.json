@@ -1,26 +1,32 @@
 [
   {
     "name": "bedge",
-    "file": "bedge.png"
+    "file": "bedge.png",
+    "aliases": []
   },
   {
     "name": "sadbedge",
-    "file": "sadbedge.png"
+    "file": "sadbedge.png",
+    "aliases": []
   },
   {
     "name": "madbedge",
-    "file": "madbedge.png"
+    "file": "madbedge.png",
+    "aliases": []
   },
   {
     "name": "doomscrollbedge",
-    "file": "doomscrollbedge.png"
+    "file": "doomscrollbedge.png",
+    "aliases": []
   },
   {
     "name": "workfrombedge",
-    "file": "workfrombedge.png"
+    "file": "workfrombedge.png",
+    "aliases": []
   },
   {
     "name": "bedgesloth",
-    "file": "bedgesloth.png"
+    "file": "bedgesloth.png",
+    "aliases": []
   }
 ]
