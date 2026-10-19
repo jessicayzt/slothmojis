@@ -28,5 +28,15 @@
     "name": "bedgesloth",
     "file": "bedgesloth.png",
     "aliases": []
+  },
+  {
+    "name": "deadge",
+    "file": "deadge.png",
+    "aliases": []
+  },
+  {
+    "name": "sweetreleaseofdeadge",
+    "file": "sweetreleaseofdeadge.png",
+    "aliases": []
   }
 ]

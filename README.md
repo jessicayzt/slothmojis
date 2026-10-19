@@ -435,3 +435,5 @@
 | doomscrollbedge | <img src="images/doomscrollbedge.png" width="64" alt="doomscrollbedge"> |
 | workfrombedge | <img src="images/workfrombedge.png" width="64" alt="workfrombedge"> |
 | bedgesloth | <img src="images/bedgesloth.png" width="64" alt="bedgesloth"> |
+| deadge | <img src="images/deadge.png" width="64" alt="deadge"> |
+| sweetreleaseofdeadge | <img src="images/sweetreleaseofdeadge.png" width="64" alt="sweetreleaseofdeadge"> |
